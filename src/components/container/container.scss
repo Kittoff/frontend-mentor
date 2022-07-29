@@ -1,0 +1,11 @@
+$color-dark-blue: hsl(213, 19%, 18%);
+
+.container{
+    background: $color-dark-blue;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
