@@ -1,0 +1,21 @@
+$color-light-grey: hsl(217, 12%, 63%);
+$medium-grey: hsl(216, 12%, 54%);
+.container--rating{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+
+}
+.container--rating-note {
+    color: $color-light-grey;
+    background: $medium-grey;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
