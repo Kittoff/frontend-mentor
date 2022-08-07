@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const ThankYou = () => {
-  return (
-    <div>ThankYou</div>
-  )
-}
+  return <div>ThankYou</div>;
+};
 
-export default ThankYou
+export default ThankYou;

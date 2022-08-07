@@ -1,26 +1,24 @@
 $color-light-grey: hsl(217, 12%, 63%);
 $medium-grey: hsl(216, 12%, 54%);
-.container--rating{
-    display: flex;
-    width: 350px;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    
-
+.container--rating {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 .container--rating-note {
-    color: $color-light-grey;
-    background: #3a4655;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-&:hover {
+  color: $color-light-grey;
+  background: #3a4655;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  &:hover {
     cursor: pointer;
-background: hsl(25, 97%, 53%);
-color: white;
-}
+    background: hsl(25, 97%, 53%);
+    color: white;
+  }
 }

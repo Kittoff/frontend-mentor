@@ -1,11 +1,11 @@
-import React from 'react'
-import './_submit.scss'
+import React from "react";
+import "./_submit.scss";
 const Submit = () => {
   return (
     <div className="container--submit">
-      <span >Submit</span>
+      <span>Submit</span>
     </div>
-  )
-}
+  );
+};
 
-export default Submit
+export default Submit;

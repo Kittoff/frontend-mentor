@@ -1,17 +1,15 @@
-@import './components/rating-card/container/_container.scss';
-@import './components/rating-card/main-card/_mainCard.scss';
-@import './components/rating-card/rating/_rating.scss';
-@import './components/rating-card/submit/submit';
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+@import "./components/rating-card/container/_container.scss";
+@import "./components/rating-card/main-card/_mainCard.scss";
+@import "./components/rating-card/rating/_rating.scss";
+@import "./components/rating-card/submit/submit";
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
 
 $color-very-dark-blue: hsl(216, 12%, 8%);
-body{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
   place-items: center;
   background: $color-very-dark-blue;
-    font-family: "Overpass";
-  }
-  
-  
+  font-family: "Overpass";
+}
