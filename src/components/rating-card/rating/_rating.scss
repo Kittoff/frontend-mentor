@@ -17,5 +17,10 @@ $medium-grey: hsl(216, 12%, 54%);
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-weight: 700;
+&:hover {
+    cursor: pointer;
+background: hsl(25, 97%, 53%);
+color: white;
+}
 }
