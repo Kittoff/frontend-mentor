@@ -28,7 +28,7 @@ const Rating = () => {
     <div className="container--rating">
       {rating.map((element) => {
         return (
-          <div className="container--rating-note">
+          <div className="container--rating-note" key={element.id}>
             <span>{element.note}</span>
           </div>
         );
