@@ -1,5 +1,5 @@
 import React from 'react'
-import './container.css'
+import './_container.scss'
 
 
 const Container = (props: any) => {

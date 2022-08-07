@@ -1,0 +1,19 @@
+.main-card {
+  h1 {
+    color: white;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: hsl(216, 12%, 54%);
+  }
+
+  .star {
+    img {
+      border-radius: 50%;
+      padding: 10px;
+      background: #3a4655;
+    }
+  }
+}

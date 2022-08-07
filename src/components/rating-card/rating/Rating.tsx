@@ -1,5 +1,5 @@
 import React from 'react'
-import './raing.css'
+import './_rating.scss'
 const Rating = () => {
   const rating = [
     {

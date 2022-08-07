@@ -1,5 +1,5 @@
 import React from 'react'
-import './submit.css'
+import './_submit.scss'
 const Submit = () => {
   return (
     <div className="container--submit">

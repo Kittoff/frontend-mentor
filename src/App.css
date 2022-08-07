@@ -1,3 +1,85 @@
+.container {
+  background: #252d37;
+  height: 323px;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 23px;
+  padding: 30px;
+}
+
+.main-card h1 {
+  color: white;
+}
+
+.main-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #7c8798;
+}
+
+.main-card .star img {
+  border-radius: 50%;
+  padding: 10px;
+  background: #3a4655;
+}
+
+.container--rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.container--rating-note {
+  color: #959eac;
+  background: #3a4655;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container--submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fb7413;
+  color: white;
+  border-radius: 100px;
+  height: 40px;
+  text-transform: uppercase;
+}
+
+.container--submit:hover {
+  cursor: pointer;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
