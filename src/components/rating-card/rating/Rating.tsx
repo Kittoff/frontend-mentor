@@ -1,34 +1,27 @@
 import React from "react";
 import "./_rating.scss";
-const Rating = () => {
-  const rating = [
-    {
-      id: 1,
-      note: 1,
-    },
-    {
-      id: 2,
-      note: 2,
-    },
-    {
-      id: 3,
-      note: 3,
-    },
-    {
-      id: 4,
-      note: 4,
-    },
-    {
-      id: 5,
-      note: 5,
-    },
-  ];
+
+export interface RatingInterface {
+  id: number;
+  note: number;
+}
+export interface Props {
+  rating: RatingInterface[];
+  setSelectedNote: any;
+}
+
+const Rating = (props: Props) => {
+  const { rating, setSelectedNote } = props;
 
   return (
     <div className="container--rating">
-      {rating.map((element) => {
+      {rating.map((element: any) => {
         return (
-          <div className="container--rating-note" key={element.id}>
+          <div
+            onClick={(event) => setSelectedNote(event)}
+            className="container--rating-note"
+            key={element.id}
+          >
             <span>{element.note}</span>
           </div>
         );

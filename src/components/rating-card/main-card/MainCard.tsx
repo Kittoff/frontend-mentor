@@ -1,9 +1,10 @@
 import React from "react";
-import Rating from "../rating/Rating";
+import Rating, { Props } from "../rating/Rating";
 import Submit from "../submit/Submit";
 import "./_mainCard.scss";
 
-const MainCard = () => {
+const MainCard = (props: any) => {
+  const { rating, handleSubmit, setSelectedNote } = props;
   return (
     <div className="main-card">
       <div className="star">
@@ -15,8 +16,8 @@ const MainCard = () => {
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-      <Rating />
-      <Submit />
+      <Rating rating={rating} setSelectedNote={setSelectedNote} />
+      <Submit handleSubmit={handleSubmit} />
     </div>
   );
 };
