@@ -1,9 +1,14 @@
 import React from "react";
-import Rating, { Props } from "../rating/Rating";
+import Rating from "../rating/Rating";
 import Submit from "../submit/Submit";
 import "./_mainCard.scss";
 
-const MainCard = (props: any) => {
+interface Props {
+  rating: any;
+  handleSubmit: () => void;
+  setSelectedNote: (newValue: number) => void;
+}
+const MainCard = (props: Props) => {
   const { rating, handleSubmit, setSelectedNote } = props;
   return (
     <div className="main-card">

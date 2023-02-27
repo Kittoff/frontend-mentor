@@ -34,9 +34,12 @@ function App() {
   const handleSubmit = () => {
     setDisplayedCard(2);
   };
-  const test = (event: any) => {
+  const handleSelectedNote = (event: any) => {
     setSelectedNote(4);
     setSelectedNote(event.target.innerText);
+  };
+  const handleGoBack = () => {
+    setDisplayedCard(1);
   };
   const displayCorrectCard = () => {
     if (displayedCard === 1) {
@@ -44,11 +47,11 @@ function App() {
         <MainCard
           rating={rating}
           handleSubmit={() => handleSubmit()}
-          setSelectedNote={(event: any) => test(event)}
+          setSelectedNote={(event: any) => handleSelectedNote(event)}
         />
       );
     } else {
-      return <ThankYou note={selectedNote} />;
+      return <ThankYou note={selectedNote} goBack={() => handleGoBack()} />;
     }
   };
 

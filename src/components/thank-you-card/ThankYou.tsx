@@ -1,9 +1,16 @@
 import React from "react";
 
-const ThankYou = (props: any) => {
-  const { note } = props;
+interface Props {
+  note: number;
+  goBack: () => void;
+}
+const ThankYou = (props: Props) => {
+  const { note, goBack } = props;
   return (
     <div className="thank-you--container">
+      <div onClick={goBack} className="thank-you--container-back">
+        Go back
+      </div>
       <div className="thank-you--container-image">
         <img src="../illustration-thank-you.svg" alt="thank you" />
       </div>

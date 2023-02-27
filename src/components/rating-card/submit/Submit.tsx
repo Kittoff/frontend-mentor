@@ -1,6 +1,10 @@
 import React from "react";
 import "./_submit.scss";
-const Submit = (props: any) => {
+
+interface Props {
+  handleSubmit: () => void;
+}
+const Submit = (props: Props) => {
   const { handleSubmit } = props;
   return (
     <div onClick={handleSubmit} className="container--submit">

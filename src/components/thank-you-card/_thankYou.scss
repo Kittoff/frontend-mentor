@@ -23,4 +23,19 @@
       line-height: 1.7;
     }
   }
+  .thank-you--container-back {
+    position: relative;
+    background: hsl(25, 97%, 53%);
+    margin-right: auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: hsl(216, 12%, 54%);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .thank-you--container-back:hover {
+    color: white;
+    cursor: pointer;
+  }
 }
