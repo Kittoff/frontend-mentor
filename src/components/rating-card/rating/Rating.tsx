@@ -17,13 +17,13 @@ const Rating = (props: Props) => {
     <div className="container--rating">
       {rating.map((element: any) => {
         return (
-          <div
+          <button
             onClick={(event) => setSelectedNote(event)}
             className="container--rating-note"
             key={element.id}
           >
             <span>{element.note}</span>
-          </div>
+          </button>
         );
       })}
     </div>
